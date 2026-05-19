@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Beautysalon | Hair Spa & Beauty Studio</title>
+    <meta name="description" content="Beautysalon is a full-service hair spa and beauty studio with online appointment booking.">
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <link rel="preconnect" href="https://images.unsplash.com">
+    <link rel="stylesheet" href="/styles.css">
+  </head>
+  <body>
+    <header class="site-header" data-header>
+      <a class="brand" href="#home" aria-label="Beautysalon home">
+        <span class="brand-mark">B</span>
+        <span>Beautysalon</span>
+      </a>
+      <button class="menu-button" type="button" aria-label="Open navigation" aria-expanded="false" data-menu-button>
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="site-nav" data-nav>
+        <a href="#services">Services</a>
+        <a href="#experience">Experience</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#booking">Book</a>
+        <a href="#admin">Admin</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" id="home">
+        <div class="hero-media" aria-hidden="true"></div>
+        <div class="hero-content">
+          <p class="eyebrow">Hair Spa Studio</p>
+          <h1>Beautysalon</h1>
+          <p class="hero-copy">A calm beauty destination for hair rituals, radiant skin, soft glam makeup, and curated self-care appointments.</p>
+          <div class="hero-actions">
+            <a class="button primary" href="#booking">Book Appointment</a>
+            <a class="button secondary" href="#services">Explore Services</a>
+          </div>
+        </div>
+        <aside class="hero-panel" aria-label="Salon highlights">
+          <strong>Open today</strong>
+          <span>10:00 AM - 8:00 PM</span>
+          <span>Same-day slots available</span>
+        </aside>
+      </section>
+
+      <section class="metrics" aria-label="Salon statistics">
+        <div>
+          <strong>12k+</strong>
+          <span>Happy clients</span>
+        </div>
+        <div>
+          <strong>18</strong>
+          <span>Beauty experts</span>
+        </div>
+        <div>
+          <strong>4.9</strong>
+          <span>Average rating</span>
+        </div>
+        <div>
+          <strong>35+</strong>
+          <span>Premium treatments</span>
+        </div>
+      </section>
+
+      <section class="section services-section" id="services">
+        <div class="section-heading">
+          <p class="eyebrow">Our Menu</p>
+          <h2>Beauty services designed around your day</h2>
+          <p>Choose a treatment, book a time, and our front desk will confirm your appointment.</p>
+        </div>
+        <div class="service-filters" role="tablist" aria-label="Filter services">
+          <button class="chip active" type="button" data-filter="All">All</button>
+          <button class="chip" type="button" data-filter="Hair Care">Hair</button>
+          <button class="chip" type="button" data-filter="Skin">Skin</button>
+          <button class="chip" type="button" data-filter="Nails">Nails</button>
+          <button class="chip" type="button" data-filter="Makeup">Makeup</button>
+        </div>
+        <div class="service-grid" data-service-grid></div>
+      </section>
+
+      <section class="experience" id="experience">
+        <div class="experience-image">
+          <img src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=1200&q=80" alt="Salon stylist finishing a client's hair">
+        </div>
+        <div class="experience-copy">
+          <p class="eyebrow">The Grace Ritual</p>
+          <h2>Quiet luxury, careful consultation, visible results</h2>
+          <p>Every visit begins with a focused consultation. We match each service to your skin, hair texture, occasion, and maintenance routine.</p>
+          <ul class="check-list">
+            <li>Personalized treatment plans</li>
+            <li>Premium hair, nail, and skin products</li>
+            <li>Relaxed private styling stations</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section gallery-section" id="gallery">
+        <div class="section-heading">
+          <p class="eyebrow">Studio Mood</p>
+          <h2>Fresh finishes, soft light, beautiful details</h2>
+        </div>
+        <div class="gallery">
+          <img src="https://images.unsplash.com/photo-1560066984-138dadb4c035?auto=format&fit=crop&w=900&q=80" alt="Hair stylist working in a salon">
+          <img src="https://images.unsplash.com/photo-1516975080664-ed2fc6a32937?auto=format&fit=crop&w=900&q=80" alt="Beauty products arranged on a counter">
+          <img src="https://images.unsplash.com/photo-1607779097040-26e80aa78e66?auto=format&fit=crop&w=900&q=80" alt="Nail polish and manicure tools">
+          <img src="https://images.unsplash.com/photo-1595475038784-bbe439ff41e6?auto=format&fit=crop&w=900&q=80" alt="Makeup brushes and beauty tools">
+        </div>
+      </section>
+
+      <section class="booking-band" id="booking">
+        <div class="booking-copy">
+          <p class="eyebrow">Appointments</p>
+          <h2>Reserve your glow time</h2>
+          <p>Send a booking request in seconds. The salon team can review every booking from the admin panel.</p>
+          <div class="contact-card">
+            <span>Call</span>
+            <strong>+91 98765 43210</strong>
+          <span>Beauty Avenue, Mumbai</span>
+          </div>
+        </div>
+        <form class="booking-form" data-booking-form>
+          <div class="form-row">
+            <label>
+              Full name
+              <input name="name" autocomplete="name" required>
+            </label>
+            <label>
+              Phone
+              <input name="phone" autocomplete="tel" required>
+            </label>
+          </div>
+          <label>
+            Email
+            <input name="email" type="email" autocomplete="email">
+          </label>
+          <label>
+            Service
+            <select name="service" required data-service-select>
+              <option value="">Choose service</option>
+            </select>
+          </label>
+          <div class="form-row">
+            <label>
+              Date
+              <input name="date" type="date" required data-date-input>
+            </label>
+            <label>
+              Time
+              <input name="time" type="time" min="10:00" max="20:00" required>
+            </label>
+          </div>
+          <label>
+            Notes
+            <textarea name="notes" rows="4" placeholder="Hair length, event details, allergies, or preferences"></textarea>
+          </label>
+          <button class="button primary full" type="submit">Confirm Booking</button>
+          <p class="form-status" data-booking-status role="status"></p>
+        </form>
+      </section>
+
+      <section class="section testimonials">
+        <div class="quote">
+          <p>“My bridal trial was peaceful, precise, and exactly the look I had saved. The online booking made everything easy.”</p>
+          <span>Aarohi M.</span>
+        </div>
+        <div class="quote">
+          <p>“The hair spa genuinely changed my texture. They explained every step without rushing me.”</p>
+          <span>Rhea S.</span>
+        </div>
+        <div class="quote">
+          <p>“Clean studio, kind team, and the nail finish lasted beautifully through travel.”</p>
+          <span>Meera K.</span>
+        </div>
+      </section>
+
+      <section class="admin-section" id="admin">
+        <div>
+          <p class="eyebrow">Salon Desk</p>
+          <h2>Booking admin</h2>
+        <p>Use the demo admin code <strong>grace2026</strong> to review appointment requests saved by the backend.</p>
+        </div>
+        <form class="admin-form" data-admin-form>
+          <input name="code" type="password" placeholder="Admin code" aria-label="Admin code" required>
+          <button class="button secondary" type="submit">Load Bookings</button>
+        </form>
+        <div class="admin-list" data-admin-list></div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div>
+        <a class="brand" href="#home">
+          <span class="brand-mark">G</span>
+          <span>Beautysalon</span>
+        </a>
+        <p>Hair spa, makeup, skin, and nail care studio.</p>
+      </div>
+      <div class="footer-links">
+        <a href="#services">Services</a>
+        <a href="#booking">Book now</a>
+        <a href="mailto:hello@beautysalon.test">hello@beautysalon.test</a>
+      </div>
+    </footer>
+
+    <script src="/app.js" defer></script>
+  </body>
+</html>

@@ -1,0 +1,17 @@
+{
+  "name": "gracesalon-fullstack",
+  "version": "1.0.0",
+  "description": "Full-stack beauty salon website with appointment booking.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "salon",
+    "booking",
+    "beauty",
+    "fullstack"
+  ],
+  "author": "",
+  "license": "MIT"
+}
