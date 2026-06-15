@@ -44,3 +44,20 @@ beautysalon-website/
 ├── server.js
 ├── server.err.log
 └── server.out.log
+
+## 🚀 Getting Started
+
+1. Clone the repo
+```bash
+   git clone https://github.com/nrusingh-07/beautysalon-website.git
+   cd beautysalon-website
+```
+2. Install dependencies
+```bash
+   npm install
+```
+3. Start the server
+```bash
+   node server.js
+```
+4. Open `http://localhost:3000` in your browser
