@@ -7,7 +7,7 @@ A modern and responsive full-stack Beauty Salon Website designed for salons, spa
 
 ---
 
-##  Features
+##  Features:
 
 - Responsive and attractive UI
 - Beauty salon landing page
@@ -33,7 +33,7 @@ A modern and responsive full-stack Beauty Salon Website designed for salons, spa
 
 ---
 
-##  Project Structure
+##  Project Structure:
 
 ```bash
 beautysalon-website/
